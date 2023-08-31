@@ -1,0 +1,122 @@
+/*
+questions
+----------
+1)why height 100 in iframe not working 
+2)how to change color in cursorsel indicator (active is done but not active indicator not)
+3) how to make two titles in caption start within the same line
+4)hover in creative team items with fastly in start then slowly at the end
+5)do hover withou color-gradient
+*/
+
+
+/*global*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.border-radius-0{
+    border-radius: 0 !important;
+}
+.fs-7{
+    font-size: .8125rem;
+}
+.fs-header{
+    font-size: 6rem;
+}
+.headers-font{
+    font-family: 'Poppins', sans-serif;
+}
+.big-letter{
+    font-size: 4.5rem;
+}
+.w-90{
+    width:90%;
+}
+/*--=============== START NAVBAR =================--*/
+.nav-item{
+    margin-right: .5rem;
+}
+.navbar{
+    z-index: 9;
+}
+/*--=============== END NAVBAR ===================--*/
+/*--=============== START HOME =================--*/
+.first-item-home{
+    background: url("../images/bg-image-28.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.second-item-home{
+    background: url("../images/bg-image-29.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+#home .item-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#ffffff 0 0) no-repeat;
+    background-size: 0%;
+    transition: all .3s;   
+}
+.controllers{
+    top: calc((100vh - 50px) / 2);
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-size: 100%;
+    transition: all .3s;
+}
+.carousel-control-next:hover .icon-next, .carousel-control-prev:hover .icon-prev {
+    color: black;
+}
+.sec-btn{
+    transition: background-color 0.5s
+}
+.sec-btn:hover{
+    background-color: #ffffff !important;
+    color: black !important;
+}
+/*--=============== END HOME ===================--*/
+/*--=============== START ABOUT =================--*/
+#about .abt-btn{
+    transition: all 0.5s;
+}
+#about .abt-btn:hover{
+    background-color: black;
+    color: white;
+}
+/*--=============== END ABOUT ===================--*/
+
+/*--=============== START TEAM =================--*/
+.member-item:hover .member-overlay{
+    top:0 !important;
+}
+.member-overlay{
+    transition:all 0.5s;
+}
+
+/*--=============== END TEAM ===================--*/
+
+/*--=============== START Pricing =================--*/
+.best-price{
+    transform: scale(1.1);
+}
+.customer-img{
+    width: 75px;
+    height: 75px;
+    transform: translateY(50%);
+}
+#carouselExampleIndicators2 .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#carouselExampleIndicators2 .carousel-indicators .active {
+    background-color: #00C3DA !important;
+}
+
+/*--=============== END Pricing ===================--*/
+/*--=============== START CONTACT =================--*/
+/*--=============== END CONTACT =================--*/

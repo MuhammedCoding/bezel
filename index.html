@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--=============== START NAVBAR =================-->
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-transparent border-bottom border-1 border-opacity-10 border-white position-fixed w-100">
+    <div class="container px-5">
+      <a class="navbar-brand fs-2 fw-bold" href="#">bezel<span class="text-info">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fs-7 headers-font">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--=============== END NAVBAR ===================-->
+
+  <!--=============== START HOME =================-->
+  <section id="home" class="vh-100 mb-5">
+    <div id="carouselExampleIndicators" class="carousel slide w-100 h-100" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner w-100 h-100">
+        <div class="carousel-item active first-item-home w-100 h-100 ">
+          <div class="item-overlay w-100 h-100 text-center vstack justify-content-center d-flex text-white">
+            <h1 class="fs-header text-white headers-font">GET AWESOME</h1>
+            <p class="lead">we are innovative comopany making digital stuff</p>
+            <div class="home-buttons d-flex justify-content-center">
+              <button type="button" class="btn btn-info text-white py-2 px-4 me-2 bolder">Read More</button>
+              <button type="button"
+                class="btn bg-transparent text-white py-2 px-4 border border-1 border-light sec-btn bolder">Contact</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item second-item-home vh-100">
+          <div class="item-overlay w-100 h-100 text-center vstack justify-content-center d-flex text-white">
+            <h1 class="fs-header text-white headers-font">Create with bezel</h1>
+            <p class="lead">we are innovative comopany making digital stuff</p>
+            <div class="home-buttons d-flex justify-content-center">
+              <button type="button" class="btn btn-info text-white py-2 px-4 me-2 bolder">Hire Us</button>
+              <button type="button"
+                class="btn bg-transparent text-white py-2 px-4 border border-1 border-light sec-btn bolder">Services</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="controllers position-absolute left-0">
+        <button class="carousel-control-prev position-static border border-1 border-light" type="button"
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="icon-prev" aria-hidden="true">
+            <i class="fa-solid fa-arrow-left"></i>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next position-static border border-1 border-light" type="button"
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="icon-next" aria-hidden="true">
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!--=============== END HOME ===================-->
+
+  <!--=============== START ABOUT =================-->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="about-caption text-center w-50 m-auto">
+        <span>WHO WE ARE</span>
+        <p class="lead text-muted fs-4 fw-light mt-3">We are an innovative company. We develop and design softwaresfor
+          costumers around the world. Our clients are some of the most forward-looking companies in the world.</p>
+        <button type="button" class="btn border border-1 border-radius-0 fw-light py-2 px-4 mt-3 abt-btn">Read
+          More</button>
+      </div>
+    </div>
+  </section>
+  <!--=============== END ABOUT ===================-->
+  <hr class="width-100">
+  <!--=============== START TEAM =================-->
+  <section id="teams" class="py-5">
+    <div class="container">
+      <div class="section-caption text-center">
+        <div class="title position-relative d-flex justify-content-center align-items-end mb-3">
+          <h1 class=" mb-0 text-black-50 fw-bold big-letter opacity-25">C</h1>
+          <h2 class=" position-absolute mb-0 fs-1 fw-bolder">Creative Team</h2>
+        </div>
+        <span class="text-lead text-secondary">We are Digital Thinkers</span>
+      </div>
+      <div class="row gx-4 gy-5 mt-3 w-90 mx-auto py-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="member-item overflow-hidden position-relative">
+            <div class="member-img overflow-hidden">
+              <img class="w-100" src="./images/team-1.jpg" alt="">
+            </div>
+            <div
+              class="member-overlay d-flex flex-column align-items-start justify-content-between w-100 h-100 position-absolute top-100 text-white bg-opacity-75 bg-info">
+              <div class="icons p-4">
+                <span class="me-1"><i class="fa-brands fa-facebook"></i></span>
+                <span class="me-1"><i class="fa-brands fa-twitter"></i></span>
+                <span class="me-1"><i class="fa-brands fa-linkedin"></i></span>
+              </div>
+              <div class="member-caption p-4 text-start">
+                <span class="fw-bolder d-block">LUKE AGO</span>
+                <span>Fonder & CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="member-item overflow-hidden position-relative">
+            <div class="member-img overflow-hidden">
+              <img class="w-100" src="./images/team-3.jpg" alt="">
+            </div>
+            <div
+              class="member-overlay d-flex flex-column align-items-start justify-content-between w-100 h-100 position-absolute top-100 text-white bg-opacity-75 bg-info">
+              <div class="icons p-4">
+                <span class="me-1"><i class="fa-brands fa-facebook"></i></span>
+                <span class="me-1"><i class="fa-brands fa-twitter"></i></span>
+                <span class="me-1"><i class="fa-brands fa-linkedin"></i></span>
+              </div>
+              <div class="member-caption p-4 text-start">
+                <span class="fw-bolder d-block">LUKE AGO</span>
+                <span>Fonder & CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="member-item overflow-hidden position-relative">
+            <div class="member-img overflow-hidden">
+              <img class="w-100" src="./images/team-3.jpg" alt="">
+            </div>
+            <div
+              class="member-overlay d-flex flex-column align-items-start justify-content-between w-100 h-100 position-absolute top-100 text-white bg-opacity-75 bg-info">
+              <div class="icons p-4">
+                <span class="me-1"><i class="fa-brands fa-facebook"></i></span>
+                <span class="me-1"><i class="fa-brands fa-twitter"></i></span>
+                <span class="me-1"><i class="fa-brands fa-linkedin"></i></span>
+              </div>
+              <div class="member-caption p-4 text-start">
+                <span class="fw-bolder d-block">LUKE AGO</span>
+                <span>Fonder & CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="member-item overflow-hidden position-relative">
+            <div class="member-img overflow-hidden">
+              <img class="w-100" src="./images/team-1.jpg" alt="">
+            </div>
+            <div
+              class="member-overlay d-flex flex-column align-items-start justify-content-between w-100 h-100 position-absolute top-100 text-white bg-opacity-75 bg-info">
+              <div class="icons p-4">
+                <span class="me-1"><i class="fa-brands fa-facebook"></i></span>
+                <span class="me-1"><i class="fa-brands fa-twitter"></i></span>
+                <span class="me-1"><i class="fa-brands fa-linkedin"></i></span>
+              </div>
+              <div class="member-caption p-4 text-start">
+                <span class="fw-bolder d-block">LUKE AGO</span>
+                <span>Fonder & CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--=============== END TEAM ===================-->
+
+  <!--=============== START SERVICES =================-->
+  <section id="services" class="py-5 bg-secondary">
+    <div class="container text-white">
+      <div class="row w-90 mx-auto py-5 bold">
+        <div class="col-sm-4 col-md-2">
+          <span>STUNNING DESIGN</span>
+        </div>
+        <div class="col-sm-4 col-md-2">
+          <span>TIME SAVER</span>
+        </div>
+        <div class="col-sm-4 col-md-2">
+          <span>CLEAN CODE</span>
+        </div>
+        <div class="col-sm-4 col-md-2">
+          <span>CUSTOMIZABLE</span>
+        </div>
+        <div class="col-sm-4 col-md-2">
+          <span>PERFECT LAYOUT</span>
+        </div>
+        <div class="col-sm-4 col-md-2">
+          <span>RETINA READY</span>
+        </div>
+      </div>
+      <div class="row w-90 mx-auto align-items-end py-5">
+        <div class="col-lg-6 me-auto">
+          <div class="title position-relative d-flex align-items-end mb-3">
+            <h1 class=" mb-0 text-white-50 fw-bold big-letter opacity-25">W</h1>
+            <h2 class=" position-absolute mb-0 fs-1 fw-bolder">What We Do</h2>
+          </div>
+          <p class="bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ipsam ullam incidunt
+            itaque nemo omnis temporibus totam quibusdam repellat vero, recusandae excepturi dignissimos velit et alias
+            amet, quia facilis perferendis.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+              <div class="check-item mb-2">
+                <span class="me-2"><i class="fa-regular fa-circle-check"></i></span>
+                <span>Research</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--=============== END SERVICES ===================-->
+
+  <!--=============== START PRICING =================-->
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container">
+      <div class="section-caption text-center">
+        <div class="title position-relative d-flex justify-content-center align-items-end mb-3">
+          <h1 class=" mb-0 text-black-50 fw-bold big-letter opacity-25">C</h1>
+          <h2 class=" position-absolute mb-0 fs-1 fw-bolder">Cheap Prices</h2>
+        </div>
+        <span class="text-lead text-secondary">We provide the best quality</span>
+      </div>
+      <div class="row py-5 gx-5 w-90 mx-auto gy-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 border-radius-0 shadow-lg">
+            <div class="card-body p-md-5 p-lg-3 p-xl-5">
+              <div class="card-title">
+                <span>Starter</span>
+              </div>
+              <div class="card-price d-flex">
+                <span class="fs-3">$</span>
+                <span class="big-letter fw-bold">9</span>
+              </div>
+              <hr>
+              <div class="card-details text-secondary">
+                <span class="mb-3 d-block"> Unlimited Connections</span>
+                <span class="mb-3 d-block"> 24/7 Support</span>
+                <span class="mb-3 d-block"> Full SSL Connection</span>
+                <span class="mb-4 d-block"> Unlimited Channels</span>
+                <button type="button" class="btn mb-3 btn-info text-white fw-bolder px-4 shadow-sm">Sign Up</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 border-radius-0 shadow-lg">
+            <div class="card-body p-md-5 p-lg-3 p-xl-5">
+              <div class="card-title">
+                <span>Starter</span>
+              </div>
+              <div class="card-price d-flex">
+                <span class="fs-3">$</span>
+                <span class="big-letter fw-bold">9</span>
+              </div>
+              <hr>
+              <div class="card-details text-secondary">
+                <span class="mb-3 d-block"> Unlimited Connections</span>
+                <span class="mb-3 d-block"> 24/7 Support</span>
+                <span class="mb-3 d-block"> Full SSL Connection</span>
+                <span class="mb-4 d-block"> Unlimited Channels</span>
+                <button type="button" class="btn mb-3 btn-info text-white fw-bolder px-4 shadow-sm">Sign Up</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 best-price">
+          <div class="card border-0 border-radius-0 shadow-lg">
+            <div class="card-body p-md-5 p-lg-3 p-xl-5">
+              <div class="card-title d-flex justify-content-between align-items-center">
+                <span>Gold</span>
+                <span class="bg-info text-white py-1 px-2 rounded-5 fs-7">Best Value</span>
+              </div>
+              <div class="card-price d-flex text-info">
+                <span class="fs-3">$</span>
+                <span class="big-letter fw-bold">29</span>
+              </div>
+              <hr>
+              <div class="card-details text-secondary">
+                <span class="mb-3 d-block"> Unlimited Connections</span>
+                <span class="mb-3 d-block"> 24/7 Support</span>
+                <span class="mb-3 d-block"> Full SSL Connection</span>
+                <span class="mb-4 d-block"> Unlimited Channels</span>
+                <button type="button" class="btn mb-3 btn-info text-white fw-bolder px-4 shadow-sm">Sign Up</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 border-radius-0 shadow-lg">
+            <div class="card-body p-md-5 p-lg-3 p-xl-5">
+              <div class="card-title">
+                <span>Starter</span>
+              </div>
+              <div class="card-price d-flex">
+                <span class="fs-3">$</span>
+                <span class="big-letter fw-bold">9</span>
+              </div>
+              <hr>
+              <div class="card-details text-secondary">
+                <span class="mb-3 d-block"> Unlimited Connections</span>
+                <span class="mb-3 d-block"> 24/7 Support</span>
+                <span class="mb-3 d-block"> Full SSL Connection</span>
+                <span class="mb-4 d-block"> Unlimited Channels</span>
+                <button type="button" class="btn mb-3 btn-info text-white fw-bolder px-4 shadow-sm">Sign Up</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="customers my-5 text-center w-90 mx-auto">
+        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+
+          <div class="carousel-inner w-75 mx-auto">
+            <div class="carousel-item active shadow-lg ">
+              <img src="./images/testimonial-2.jpg" class="customer-img border rounded-circle" alt="">
+              <div class="customer-feedback py-5 bg-white">
+                <div class="customer-caption">
+                  <h2>Mark Zukrerberg</h2>
+                  <span>Founder & CEO</span>
+                  <p class="text-muted px-5 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit dolore cupiditate ipsum commodi eligendi iusto animi aspernatur deserunt? Totam, iure
+                    rerum. Voluptate labore, nesciunt doloremque debitis impedit repudiandae, mollitia deserunt
+                    architecto nam iure necessitatibus, earum cumque aperiam inventore ratione modi!</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item bg-white shadow-lg ">
+              <img src="./images/testimonial-2.jpg" class="customer-img border rounded-circle" alt="">
+              <div class="customer-feedback py-5 bg-white">
+                <div class="customer-caption">
+                  <h2>Mark Zukrerberg</h2>
+                  <span>Founder & CEO</span>
+                  <p class="text-lead px-5 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                    dolore cupiditate ipsum commodi eligendi iusto animi aspernatur deserunt? Totam, iure rerum.
+                    Voluptate labore, nesciunt doloremque debitis impedit repudiandae, mollitia deserunt architecto nam
+                    iure necessitatibus, earum cumque aperiam inventore ratione modi!</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-indicators position-static">
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+              class="active text-black" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" class="text-black"
+              aria-label="Slide 2"></button>
+          </div>
+          <button class="carousel-control-prev my-auto" type="button" data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="prev">
+            <span class="prev  text-secondary fs-5" aria-hidden="true">
+              <i class="fa-solid fa-arrow-left"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next my-auto" type="button" data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="next">
+            <span class="next text-secondary fs-5" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!--=============== END PRICING ===================-->
+
+  <!--=============== START CONTACT =================-->
+  <section id="contact" class="py-5">
+    <div class="container-fluid ">
+      <div class="contact-area w-100">
+        <div class="section-caption mb-5  text-center">
+          <h1 class=" mb-2 fs-1 fw-bolder">Get in Touch</h2>
+            <span class="text-lead text-secondary">Let's Work Together</span>
+        </div>
+        <div class="form mx-auto w-75">
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control mb-5 border-radius-0">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control mb-5 border-radius-0">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" class="form-control mb-5 border-radius-0">
+            <label for="message">Your Message</label>
+            <textarea id="message" class="form-control  mb-5 border-radius-0" rows="5"></textarea>
+            <button class="btn btn-info border rounded-2 text-white fw-bold py-3 px-5 fs-5" type="submit">Send
+              Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=============== END CONTACT ===================-->
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
